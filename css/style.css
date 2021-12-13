@@ -68,3 +68,9 @@ body{
 #returnal-logo{
     width: 300px;
 }
+
+/* Jumbo games */
+
+#jumbo-games img{
+    border-radius: 15px;
+}
