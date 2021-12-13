@@ -1,7 +1,8 @@
 /* * Layout */
 
 header{
-    /* position: fixed; */
+    /* position: fixed;
+    width: 100%; */
 }
 
 .topheader{
@@ -22,8 +23,8 @@ header{
 }
 
 #jumbo-newgames{
-    height: 600px;
-    border: 1px dashed green;
+    /* height: 600px;
+    border: 1px dashed green; */
 }
 
 /* .container{
@@ -46,6 +47,10 @@ body{
 
 .btn.btn-danger{
     background-color: #CD3D0F;
+}
+
+img{
+    cursor: pointer;
 }
 
 /* Header */
@@ -73,4 +78,10 @@ body{
 
 #jumbo-games img{
     border-radius: 15px;
+}
+
+/* PS5 */
+
+#ps5 .card.opacity-50:hover{
+    opacity: 1.0!important;
 }
