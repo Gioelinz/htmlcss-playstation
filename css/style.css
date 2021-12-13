@@ -14,8 +14,11 @@ header{
 }
 
 #jumbo{
-    height: 600px;
-    border: 1px dashed red;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 800px;
 }
 
 #jumbo-newgames{
@@ -33,8 +36,16 @@ header{
     /* min-height: 100px; */
 }
 
+/* Generics */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utils */
+
+.btn.btn-danger{
+    background-color: #CD3D0F;
 }
 
 /* Header */
@@ -50,4 +61,10 @@ body{
 
 .navbar-light .navbar-nav .nav-link:hover{
     color: #0070D1;
+}
+
+/* Jumbo */
+
+#returnal-logo{
+    width: 300px;
 }
