@@ -1,0 +1,30 @@
+/* * Layout */
+
+header{
+    /* position: fixed; */
+}
+
+.topheader{
+    height: 30px;
+    background-color: black;
+}
+
+.main-header{
+    height: 100px;
+    border: 1px solid rgb(0, 255, 55);
+}
+
+#jumbo{
+    height: 600px;
+    border: 1px dashed red;
+}
+
+/* .container{
+    border: 1px dotted blue;
+    min-height: 300px;
+} */
+
+[class^="col"]{
+    border: 1px solid black; 
+    min-height: 100px;
+}
