@@ -23,8 +23,14 @@ header{
 }
 
 #jumbo-newgames{
-    /* height: 600px;
-    border: 1px dashed green; */
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#newgames{
+    background-color: #1F1F1F;
 }
 
 /* .container{
@@ -76,7 +82,7 @@ img{
 
 /* Jumbo games */
 
-#jumbo-games img{
+#jumbo-games img, #newgames img{
     border-radius: 15px;
 }
 
@@ -84,4 +90,16 @@ img{
 
 #ps5 .card.opacity-50:hover{
     opacity: 1.0!important;
+}
+
+/* Explore */
+
+.h1-explore{
+    position: relative;
+}
+
+.registered{
+    position: absolute;
+    top: 5px;
+    font-size: 20px;
 }
