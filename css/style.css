@@ -50,6 +50,7 @@ body{
 
 img{
     cursor: pointer;
+    pointer-events: none;
 }
 
 .w-20{
@@ -73,11 +74,16 @@ img{
     color: #0070D1;
 }
 
+.nav-link i.bi-chevron-down::before{
+    font-size: 15px;
+}
+
 header .avatar-fill{
     height: 100%;
     width: 30px;
     color: blue;
 }
+
 
 /* Jumbo */
 
@@ -112,7 +118,6 @@ header .avatar-fill{
 /* Ps plus */
 
 .psplus-img{
-    /* object-fit:fill; */
     height: 440px;
 }
 
