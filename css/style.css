@@ -33,6 +33,10 @@ header{
     background-color: #1F1F1F;
 }
 
+#psplus{
+    background-color: #BEBCBB;
+}
+
 /* .container{
     border: 1px dotted blue;
     min-height: 300px;
@@ -100,6 +104,12 @@ img{
 
 .registered{
     position: absolute;
-    top: 5px;
+    top: 20px;
     font-size: 20px;
+}
+
+/* Ps plus */
+
+.psplus-img{
+    object-fit:fill;
 }
