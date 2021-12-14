@@ -78,6 +78,12 @@ img{
     color: #0070D1;
 }
 
+header .avatar-fill{
+    height: 100%;
+    width: 30px;
+    color: blue;
+}
+
 /* Jumbo */
 
 #returnal-logo{
