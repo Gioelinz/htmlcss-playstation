@@ -48,6 +48,10 @@ body{
     background-color: #CD3D0F;
 }
 
+.btn-danger:hover{
+    border-color: black;
+}
+
 img{
     cursor: pointer;
     pointer-events: none;
@@ -55,6 +59,36 @@ img{
 
 .w-20{
     width: 20%;
+}
+
+/* Buttons hovers */
+
+.hover-line:hover{
+    box-shadow:  0 0 1px 3px black;
+    outline: 1px solid white;
+}
+
+.hover-line-purchase:hover{
+    box-shadow: 0 0 1px 3px #CD3D0F;
+    outline: 1px solid black;
+}
+
+.hover-line-primary:hover{
+    outline: 1px solid white;
+    box-shadow:  0 0 1px 3px #0070D1;
+}
+
+.hover-line-light:hover{
+    box-shadow:  0 0 2px 2px white;
+}
+
+.hover-line-darkblue:hover{
+    outline: 2px solid #161C3B;
+    box-shadow:  0 0 1px 4px white;
+}
+
+.hover-line-purchase{
+    
 }
 
 /* ! Content */
@@ -95,6 +129,20 @@ header .avatar-fill{
 
 #jumbo-games img, #newgames img{
     border-radius: 15px;
+}
+
+.active-card{
+    border: 2px solid white;
+    outline: 4px solid #0070D1;
+}
+
+#jumbo-games .trasl-hover{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#jumbo-games .trasl-hover:hover{
+    transform: translateY(-20px);
 }
 
 /* PS5 */
