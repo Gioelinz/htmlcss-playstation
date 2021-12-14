@@ -112,7 +112,8 @@ header .avatar-fill{
 /* Ps plus */
 
 .psplus-img{
-    object-fit:fill;
+    /* object-fit:fill; */
+    height: 440px;
 }
 
 /* Footer */
